@@ -1,0 +1,12 @@
+{
+    "project_name": "repo",
+    "description": "Description",
+    "date": "{% now 'utc', '%Y-%m-%d' %}",
+    "remote_url": "Remote url",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+
+    "author_name": "Author name",
+    "author_institution": "Author institution",
+    "author_position": "Author position",
+    "author_github": "Author github"
+}

@@ -1,0 +1,2 @@
+build:
+	Rscript main.R
