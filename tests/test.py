@@ -64,6 +64,7 @@ def test_generate_project() -> None:
     project_name = 'awesome-test'
     assert (TESTS_ROOT / project_name).exists()
 
+    assert (TESTS_ROOT / project_name / '.gitignore').exists()
     assert (TESTS_ROOT / project_name / 'data').exists()
     assert (TESTS_ROOT / project_name / 'data' / '.gitkeep').exists()
     assert (TESTS_ROOT / project_name / 'results').exists()
